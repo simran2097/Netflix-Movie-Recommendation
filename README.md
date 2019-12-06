@@ -9,3 +9,10 @@ The first line of each file [combined_data_1.txt, combined_data_2.txt, combined_
 CustomerID,Rating,Date
 MovieIDs range from 1 to 17770 sequentially. CustomerIDs range from 1 to 2649429, with gaps. There are 480189 users. Ratings are on a five star (integral) scale from 1 to 5. Dates have the format YYYY-MM-DD.
 
+## Objectives:
+1.Predict the rating that a user would give to a movie that he has not yet rated.
+2.Minimize the difference between predicted and actual rating (RMSE and MAPE)
+
+## Constraints:
+1.Some form of interpretability.
+2.There is no low latency requirement as the recommended movies can be precomputed earlier.
